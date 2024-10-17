@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1.5px solid #2c2f24;
+  color: #2c2f24;
+  padding: 15px;
+}
+
+.nav-btn a:hover {
+  background-color: #ad343e;
+  border: 1.5px solid #ad343e;
+  transition: all 0.35s ease;
+  color: white;
+}

@@ -1,0 +1,175 @@
+.menu-menu {
+  padding: 100px;
+  background-color: white;
+}
+
+.title-menu {
+  margin: auto;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.title-menu h1 {
+  font-size: 100px;
+  line-height: 96px;
+}
+
+.title-menu p {
+  color: #495460;
+  width: 488px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.book-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.book-btn a {
+  border: 1px solid #dbdfd0;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #2c2f24;
+  padding: 10px 45px;
+  font-weight: 500;
+}
+
+.book-btn a:hover {
+  transition: all 0.3s ease;
+  color: white;
+  background-color: #ad343e;
+  border: 1px solid #ad343e;
+}
+
+.book-btn .links-active {
+  color: white;
+  border-radius: 34px;
+  background: #ad343e;
+}
+
+/* --------------------------------- */
+.book-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 85px;
+}
+
+.caard {
+  height: 428px;
+  width: 260px;
+  border: 1.5px solid #dbdfd0;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.caard img {
+  max-width: 100%;
+}
+
+.card-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  margin: 20px;
+  height: 134px;
+}
+
+.card-card h2 {
+  width: 100%;
+  color: #ad343e;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.card-card h3 {
+  color: #2c2f24;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.card-card p {
+  color: #414536;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* -------------------------------- */
+.brands {
+  padding: 100px;
+  background-color: #f9f9f7;
+  height: 590px;
+}
+
+.content-brand {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 122px;
+  height: 350px;
+}
+
+.text-brand {
+  margin-top: 40px;
+  height: 250px;
+  width: 346px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.text-brand h1 {
+  color: #2c2f24;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+.text-brand p {
+  width: 300px;
+  color: #414536;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.logo-brand {
+  height: 350px;
+  width: 785px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-brand .row {
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .menu-menu {
+    padding: 20px;
+  }
+
+  .title-menu {
+    width: 0;
+    gap: 0;
+  }
+
+  .book-btn {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,64 @@
+.book {
+  background-color: #f9f9f7;
+  padding: 100px 100px 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+  height: 700px;
+}
+.title-book {
+  margin: auto;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.title-book h1 {
+  font-size: 100px;
+  line-height: 96px;
+}
+.title-book p {
+  color: #495460;
+  width: 488px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.form-book {
+    margin-left: 75px;
+  border-radius: 20px;
+  background-color: white;
+}
+.form-book form {
+  padding: 50px;
+}
+.form-label {
+  font-size: 20px;
+  line-height: 35px;
+}
+.form-control {
+  border-radius: 118px;
+  height: 60px;
+  padding-left: 20px;
+}
+.btn-book {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: white;
+  width: 717px;
+  height: 64px;
+  font-weight: 600;
+  border-radius: 118px;
+  border: 1.5px solid #ad343e;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ad343e;
+}
+.map {
+  height: 767px;
+  background-image: url(../img/Map.png);
+  background-size: cover;
+}

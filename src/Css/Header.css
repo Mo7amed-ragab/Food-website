@@ -1,0 +1,133 @@
+.topbar {
+  padding: 10px 100px;
+  background-color: #474747;
+  display: flex;
+  justify-content: space-between;
+}
+.info-topbar {
+  display: flex;
+  gap: 30px;
+}
+.info-topbar a {
+  color: #f9f9f7;
+  text-decoration: none;
+}
+.fa {
+  color: #f9f9f7;
+  margin-right: 8px;
+}
+.social-topbar a {
+  margin-right: 4px;
+}
+.navbar {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar .links a {
+  color: #2c2f24;
+  padding: 5px 20px;
+}
+.navbar .links a:hover {
+  border-radius: 34px;
+  background: #dbdfd0;
+  transition: all 0.35s ease;
+}
+.navbar .links a.active {
+  border-radius: 34px;
+  background: #dbdfd0;
+}
+.nav-toggler {
+  display: none;
+  cursor: pointer;
+}
+.nav-toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: darkgray;
+  transition: 0.4s ease-in;
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+/* ----------------------------------------------- */
+@media only screen and (max-width: 1067px) {
+  .navbar .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 780px) {
+  .nav-toggler {
+    display: block;
+  }
+  .links {
+    position: fixed;
+    top: 140px;
+    right: 0;
+    width: 100px;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    padding-right: 365px;
+  }
+  .navbar .links a:hover,
+  .navbar .links a.active {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .topbar {
+    padding: 20px;
+  }
+  .info-topbar {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .navbar {
+    padding: 20px;
+  }
+  .navbar .logo img {
+    width: 150px;
+  }
+  .navbar .nav-btn a {
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .links {
+    position: fixed;
+    top: 240px;
+    right: 0;
+    width: 100px;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    padding-right: 245px;
+  }
+  .navbar .nav-btn a {
+    padding: 5px;
+  }
+}
+.nav-active {
+  transform: translateX(0);
+}

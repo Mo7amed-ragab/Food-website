@@ -1,0 +1,180 @@
+.authentic {
+  height: 583px;
+  background-image: url(../img/BG\ .png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  position: relative;
+}
+
+.img-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 80px;
+}
+
+.play {
+  width: 106px;
+  height: 106px;
+  cursor: pointer;
+}
+
+.text-auth {
+  width: 596px;
+  height: 121px;
+}
+
+.text-auth h3 {
+  color: white;
+  font-size: 55px;
+  line-height: 60.5px;
+  padding-left: 72px;
+}
+
+.feature-auth {
+  padding: 100px;
+  background-color: white;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.feat-auth {
+  width: 366px;
+  height: 90px;
+}
+
+.info-auth {
+  width: 294px;
+  height: 90px;
+  float: right;
+}
+
+.info-auth h5 {
+  color: #2c2f24;
+  line-height: 26px;
+  font-size: 20px;
+}
+
+.info-auth p {
+  width: 270px;
+  color: #414536;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+/* ----------------------------------------------- */
+.content {
+  padding: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .content,
+  .feature-auth {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .feature-auth {
+    flex-direction: column;
+  }
+}
+
+
+.content-color {
+  background-color: #f9f9f7;
+}
+
+.content-con {
+  position: relative;
+  height: 680px;
+}
+
+.content-con img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 488px;
+  height: 680px;
+  top: 0;
+  right: 0;
+  gap: 50px;
+  position: absolute;
+}
+
+.text-con {
+  width: 688px;
+  top: 15px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+}
+
+.text-con h3 {
+  height: 121px;
+  width: 500px;
+  font-size: 55px;
+  line-height: 60.5px;
+}
+
+.text-con p {
+  height: 121px;
+  width: 500px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.title-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+.fact-all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  height: 372px;
+  width: 610px;
+}
+
+.fact {
+  background-color: white;
+  height: 174px;
+  width: 293px;
+  border-radius: 20px;
+  border: 1px solid #dbdfd0;
+}
+
+.fact h1 {
+  color: #2c2f24;
+  font-size: 55px;
+  line-height: 60.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.fact h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #414536;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.test-2 {
+  background-color: white;
+}
+
+.card-2 {
+  background-color: #f9f9f7;
+}
